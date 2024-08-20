@@ -20,5 +20,25 @@ public class ConditionalStatements {
         else{
             System.out.println("Adult");
         }
+
+        // ternary operator
+        int num1 = 5;
+        int num2 = 3;
+        int larger = (num1>num2)?num1:num2;
+        System.out.println(larger);
+
+        // switch statement
+        int number = 2;
+        switch (number) {
+            case 1:
+                System.out.println("Hii Ritesh Bodkhe");
+                break;
+            case 2:
+                System.out.println("Do you want a tea??");
+                break;
+            default:
+                System.out.println("Good bye!!");
+                break;
+        }
     }
 }
