@@ -9,5 +9,16 @@ public class ConditionalStatements {
         else{
             System.out.println("You can't vote.");
         }
+
+        // else-if statement
+        if(a<13){
+            System.out.println("Child");
+        }
+        else if(a>13 && a<21){
+            System.out.println("Young");
+        }
+        else{
+            System.out.println("Adult");
+        }
     }
 }
