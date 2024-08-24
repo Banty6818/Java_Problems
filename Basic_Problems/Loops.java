@@ -7,5 +7,13 @@ public class Loops {
             x++;
         }
         System.out.println();
+
+        // for loop
+        for(int i=1; i<=10; i++){
+            System.out.println(x+" ");
+        }
+        System.out.println();
+
+        
     }
 }
