@@ -14,6 +14,30 @@ public class Loops {
         }
         System.out.println();
 
-        
+        // do while
+        int y=0;
+        do{
+            System.out.println("Hello Ritesh");
+            y++;
+        }
+        while(y<10);
+
+        // break Statement
+        int n=0;
+        for(int i=0; i<3; i++){
+            if(n==1){
+                break;
+            }
+            n++;
+        }
+        System.out.println(n);
+
+        // continue statement
+        for(int i=0; i<5; i++){
+            if(i==2){
+                continue;
+            }
+            System.out.println(i);
+        }
     }
 }
